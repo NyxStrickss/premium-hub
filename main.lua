@@ -1,7 +1,5 @@
-PremiumHub/
- ├── loader.lua
- ├── main.lua
- ├── ui.lua
- ├── modules/
- │    ├── visual.lua
- │    ├── radar.lua
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Hub",
+	Text = "Funcionando 🚀",
+	Duration = 3
+})
